@@ -22,3 +22,58 @@ body{
     background-size: cover;
   }
 
+#technical_details{
+        border: beige 2px solid;
+        width: 75%;
+        text-align: left;
+
+    }
+    .academics{
+        padding-left: 50px;
+    }
+    #work_exp{
+        border: beige 2px solid;
+        margin-left: 50%;
+        width: 50%;
+        text-align: right;
+
+    }
+    .companies{
+        padding-right: 50px;
+
+    }
+    #projects{
+        border: beige 2px solid;
+        width: 50%;
+        text-align: left;
+    }
+    .notableProjects{
+        padding-left: 50px;
+    }
+    img{
+        height: 100px;
+        width: 100px;
+    }
+    #computerLanguages{
+        border: beige 2px solid;
+        margin-left: 50%;
+        width: 50%;
+     
+        text-align: center;
+
+    }
+    #arrow1{
+        margin-left: 500px;
+        margin-top: 20px;
+        transform: scale(1.5)
+    }
+    #arrow2{
+        margin-right: 100px;
+        margin-top: 20px;
+        transform: scaleX(-1) scale(1.5);
+    }
+    #arrow3{
+        margin-left: 100px;
+        transform: scale(1.5) ;
+    }
+
