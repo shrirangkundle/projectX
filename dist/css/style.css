@@ -1,14 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
 body{
     background-image: url("https://miro.medium.com/max/3622/1*RoXcbaF9lIqwpMjiXg54Vw.png");
     text-align: center;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
+
 .parallax {
         
       
       
-        min-height: 500px; 
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
