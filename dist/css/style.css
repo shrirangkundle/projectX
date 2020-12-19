@@ -1,0 +1,14 @@
+body{
+    background-image: url("https://miro.medium.com/max/3622/1*RoXcbaF9lIqwpMjiXg54Vw.png");
+    text-align: center;
+}
+.parallax {
+        
+      
+      
+        min-height: 500px; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
