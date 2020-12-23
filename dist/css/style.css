@@ -1,22 +1,182 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-
-body{
-    background-image: url("https://miro.medium.com/max/3622/1*RoXcbaF9lIqwpMjiXg54Vw.png");
-    text-align: center;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+:root {
+  --nav-clr: #ffffff;
 }
 
-.parallax {
-        
-      
-      
-    min-height: 500px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+/* Nav wrapper with mix-blend-mode*/
+.container {
+  position: fixed;
+  top: 1em;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding: 1em 0;
+  width: 95vw;
+  max-width: 400px;
+  text-align: center;
+  z-index: 999;
+  isolation: isolate;
+  mix-blend-mode: difference;
+}
+
+/* Navbar styling */
+.site-nav svg {
+  max-width: 50px;
+  max-height: 50px;
+  stroke: black;
+}
+.site-nav a {
+  display: block;
+  padding: 0;
+  margin-left: 3em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--nav-clr);
+}
+.site-nav a:hover {
+  opacity: 0.7;
+}
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.site-nav li {
+  display: inline-block;
+}
+.site-nav li:first-child a {
+  margin-left: 0;
+}
+
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  .container {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 40px;
   }
+}
+/* Nice subtle hover effect */
+.site-nav li:hover svg, .site-nav li:focus svg {
+  -webkit-animation: shake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+          animation: shake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  15% {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  30% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+  45% {
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
+  }
+  60% {
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
+  }
+  75% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  85% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  92% {
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
+  }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+}
+
+@keyframes shake {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  15% {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  30% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+  45% {
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
+  }
+  60% {
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
+  }
+  75% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  85% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  92% {
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
+  }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+}
+/* This part just adds background pictures*/
+section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+
+body {
+  background-image: url(https://source.unsplash.com/1600x900/?grey);
+}
+img {
+    border-radius: 50%;
+    display: block;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+  }
+  p{
+      text-align: center;
+  }
+/* .two {
+  background-image: url(https://source.unsplash.com/1920x1080?landscape);
+}
+
+.three {
+  background-image: url(https://source.unsplash.com/1920x1080?portrait);
+}
+
+.four {
+  background-image: url(https://source.unsplash.com/1920x1080?stars);
+} */
