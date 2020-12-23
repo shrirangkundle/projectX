@@ -3,10 +3,15 @@
   --nav-clr: #ffffff;
 }
 
+/* <<<<<<< HEAD
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
+======= */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+>>>>>>> 8e88ab5b2bef8d2248d1169190d567802ad90acb */
 
 /* Nav wrapper with mix-blend-mode*/
 .container {
@@ -60,6 +65,7 @@ body {
     backdrop-filter: blur(10px);
     border-radius: 40px;
   }
+
 }
 /* Nice subtle hover effect */
 .site-nav li:hover svg, .site-nav li:focus svg {
@@ -180,3 +186,59 @@ img {
 .four {
   background-image: url(https://source.unsplash.com/1920x1080?stars);
 } */
+
+/* #technical_details{
+        border: beige 2px solid;
+        width: 75%;
+        text-align: left;
+
+    }
+    .academics{
+        padding-left: 50px;
+    }
+    #work_exp{
+        border: beige 2px solid;
+        margin-left: 50%;
+        width: 50%;
+        text-align: right;
+
+    }
+    .companies{
+        padding-right: 50px;
+
+    }
+    #projects{
+        border: beige 2px solid;
+        width: 50%;
+        text-align: left;
+    }
+    .notableProjects{
+        padding-left: 50px;
+    }
+    img{
+        height: 100px;
+        width: 100px;
+    }
+    #computerLanguages{
+        border: beige 2px solid;
+        margin-left: 50%;
+        width: 50%;
+     
+        text-align: center;
+
+    }
+    #arrow1{
+        margin-left: 500px;
+        margin-top: 20px;
+        transform: scale(1.5)
+    }
+    #arrow2{
+        margin-right: 100px;
+        margin-top: 20px;
+        transform: scaleX(-1) scale(1.5);
+    }
+    #arrow3{
+        margin-left: 100px;
+        transform: scale(1.5) ;
+    } */
+
